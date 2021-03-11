@@ -9,8 +9,7 @@ import "./styles.scss";
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
-  const [darkMode, setDarkMode] = useState(false);
-  const [isDark, setIsDark] = useState()
+  const [darkMode, setDarkMode] = useDarkMode(false);
 
 // We'll need to know if dark mode is enabled, right? And we'll need a setter function to toggle dark mode.
 
